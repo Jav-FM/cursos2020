@@ -6,6 +6,7 @@
 @import 'abstracts/mixins';
 
 // Vendors
+@import 'vendors/bootstrap-4.6/bootstrap';
 
 // Base
 @import 'base/reset';
@@ -13,15 +14,15 @@
 @import 'base/base';
 
 // Layout
-@import 'layout/grid';
+@import 'layout/navbar';
 @import 'layout/header';
-@import 'layout/main';
+@import 'layout/cursos';
+@import 'layout/acercaDe';
 @import 'layout/footer';
 
 // // Components
 @import 'components/buttons';
-@import 'components/cards';
-@import 'components/navigations';
+@import 'components/inputs';
 
 // Page
 

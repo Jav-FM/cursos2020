@@ -1,0 +1,60 @@
+//Navbar Typography
+
+.navbar li {
+    font-family: $poppins;
+    font-weight: $bold;
+    font-size: $medium;
+}
+
+
+//Cursos Section Typography
+.curso {
+    &__title {
+        font-family: $ubuntu;
+        font-weight: $bold;
+        font-size: $x-large;
+    }
+    &__description, &__icons {
+        font-family: $ubuntu;
+        font-weight: $regular;
+        font-size: $medium;
+    }
+    &__instructor {
+        font-family: $ubuntu;
+        font-weight: $bold;
+        font-size: $large;
+    }
+}
+
+//Acerca de Section Typography
+
+.acercaDe {
+    &__title {
+        font-family: $ubuntu;
+        font-weight: $bold;
+        font-size: $large;
+    }
+    &__socialMedias {
+        font-size: $large;
+    }
+    &__info {
+        font-family: $ubuntu;
+        font-weight: $regular;
+        font-size: $medium;
+    }
+}
+
+.acercaDe__masCursos {
+    font-family: $poppins;
+    font-weight: $bold;
+    font-size: $large;
+    color: $white;
+    background-color: $charcoal;
+    text-align: center;
+    align-self: stretch;
+    &-item a {
+        font-family: $poppins;
+        font-weight: $regular;
+        color: purple;
+    }
+}

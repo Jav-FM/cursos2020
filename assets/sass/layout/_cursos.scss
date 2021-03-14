@@ -1,0 +1,31 @@
+.cursos {
+    width: 48.5%;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 10px;
+    border: solid 1px;
+}
+
+.curso {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: dotted 1px;
+    &__image {
+        width: 100%;
+        height: auto;
+        padding-bottom: 10px;
+    }
+    &__icons i {
+        padding-right: 2px;
+        padding-left: 6px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .cursos {
+        width: 100%;
+    }
+}

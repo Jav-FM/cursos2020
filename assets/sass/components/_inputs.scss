@@ -1,0 +1,12 @@
+//inputs
+
+.e-mail-input {
+    background-color: $white;
+    color:$black;
+    border-radius: 5px;
+    border: outset 1px;
+    &:focus {
+       background-color: $tangerine;
+    }
+}
+
